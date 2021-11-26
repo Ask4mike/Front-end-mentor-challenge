@@ -1,4 +1,8 @@
+const tailwindcss = require("tailwindcss");
 const colors = require("tailwindcss/colors");
+
+exports.default = series(tailwindcss);
+exports.test = series(tailwindcss);
 
 module.exports = {
   purge: [],
