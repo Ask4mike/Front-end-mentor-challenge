@@ -1,0 +1,27 @@
+{
+  "name": "Front-end-mentor-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss  css/styles.css -o public/main.css  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ask4mike/Front-end-mentor-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ask4mike/Front-end-mentor-challenge/issues"
+  },
+  "homepage": "https://github.com/Ask4mike/Front-end-mentor-challenge#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.4.0",
+    "get-stdin": "^9.0.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
